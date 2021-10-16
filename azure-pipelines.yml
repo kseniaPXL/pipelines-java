@@ -6,7 +6,8 @@
 trigger:
 - master
 
-
+pool:
+  vmImage: ubuntu 64-bit
 
 steps:
 - script: echo Hello, world!
